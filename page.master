@@ -23,6 +23,14 @@
 			<div class="header">
 				<div class="mainTitle">kingChochacho.com</div>
 				<div class="loginArea">
+					<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+						<AnonymousTemplate>
+							R.A.D. C.H.I.L.I.E.S
+						</AnonymousTemplate>
+						<LoggedInTemplate>
+							B
+						</LoggedInTemplate>
+					</asp:LoginView>
 				</div>
 			</div>
 			<div>
