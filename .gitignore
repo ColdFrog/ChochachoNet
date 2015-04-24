@@ -2,3 +2,4 @@
 /Chochachonet.csproj
 /bin/
 /obj/
+*.config
