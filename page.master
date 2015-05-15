@@ -10,18 +10,20 @@
 		<meta http-equiv="PRAGMA" content="NO-CACHE" />
 
 		<link href="/css/Chochachonet.css" type="text/css" rel="stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<style>
 			@font-face{
 				font-family:'Blue-Highway';
 				src: url('/Fonts/blue highway rg.ttf');
 			}
 		</style>
+		<asp:contentplaceholder id="HeaderContent" runat="server" />
 	</head>
 	<body>
-		<form id="Form1" method="post" runat="server">
+		<form id="Form1" name="Form1" method="post" runat="server">
 			<!-- Site Code goes here! -->
 			<div class="header">
-				<div class="mainTitle">kingChochacho.com</div>
+				<div class="mainTitle" onclick="window.location='http://www.kingchochacho.com';">kingChochacho.com</div>
 				<div class="loginArea">
 					<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
 						<AnonymousTemplate>
