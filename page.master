@@ -22,17 +22,25 @@
 	<body>
 		<form id="Form1" name="Form1" method="post" runat="server">
 			<!-- Site Code goes here! -->
-			<div class="header">
-				<div class="mainTitle" onclick="window.location='http://www.kingchochacho.com';">kingChochacho.com</div>
-				<div class="loginArea">
-					<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
-						<AnonymousTemplate>
-							R.A.D. C.H.I.L.I.E.S
-						</AnonymousTemplate>
-						<LoggedInTemplate>
-							B
-						</LoggedInTemplate>
-					</asp:LoginView>
+			<div id="header">
+				<div id="site_navigation">
+					<h1><a href='/'>King Chochacho</a></h1>
+					<ul class="navigation">
+						<li><a href="/AnagraphTester.aspx">Anagraphs</a></li>
+					</ul>
+				</div>
+				<div class="mainBanner">
+					<div class="mainTitle" onclick="window.location='http://www.kingchochacho.com';">kingChochacho.com</div>
+					<div class="loginArea">
+						<asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+							<AnonymousTemplate>
+								R.A.D. C.H.I.L.I.E.S
+							</AnonymousTemplate>
+							<LoggedInTemplate>
+								B
+							</LoggedInTemplate>
+						</asp:LoginView>
+					</div>
 				</div>
 			</div>
 			<div>

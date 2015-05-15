@@ -76,6 +76,7 @@ namespace Chochachonet
 		
 		public void clearEntries(object sender, EventArgs args)
 		{
+			ErrorBox.Visible = false;
 			ResultBox.Visible = false;
 			WordCompareBox.Text = "";
 		}

@@ -15,7 +15,7 @@
 			<asp:TextBox id="word1" runat="server" />&nbsp;&nbsp;<asp:TextBox id="word2" runat="server" />
 		</div>
 		<div style="padding-bottom:5px;">
-			<asp:Button id="compareButton" Text="Are They Anagraphs?" OnClick="CompareWords" runat="server" />
+			<asp:Button id="compareButton" Text="Are They Anagraphs?" OnClick="CompareWords" runat="server" /> <asp:Button id="clearButton" Text="Clear Entries" OnClick="clearEntries" runat="server" />
 		</div>
 		<div Visible="False" style="margin: 0 auto; margin-bottom:5px; width:500px; border:1px solid red; color:red;" id="ErrorBox" runat="server">
 			You can only compare letters. Sucks.
