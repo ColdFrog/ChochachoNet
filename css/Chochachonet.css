@@ -478,3 +478,36 @@ h2.dotted
 	text-decoration: underline;
 	color: #99cc00;
 }
+
+#site_affiliates table
+{
+	padding:0px;
+}
+
+#site_affiliates td
+{
+    vertical-align:top;
+    height:15px;
+	padding:0px 5px 0px 0px;
+}
+
+#site_affiliates td + td
+{
+    display:none;
+}
+
+#site_affiliates td:hover + td
+{
+    display:table-cell;
+}
+
+#site_affiliates td + td div
+{
+    float:left;
+    position:absolute;
+}
+
+#site_affiliates td + td img
+{
+	border:1px solid black;
+}
