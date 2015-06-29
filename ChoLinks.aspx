@@ -15,6 +15,14 @@
 		        <td><a href="http://www.shrugguy.com/" target="_blank">Shrug Guy ¯\_(ツ)_/¯</a></td>
 		        <td><div><img src="/images/shrugguy.png" /></div></td>
 		    </tr>
+		    <tr>
+		        <td><a href="http://www.liquidenjoyment.com/catte/" target="_blank">Cattachment</a></td>
+		        <td><div><img src="/images/lostray.png" /></div></td>
+		    </tr>
+		    <tr>
+		        <td><a href="http://www.liquidenjoyment.com/O____O/" target="_blank">O____O</a></td>
+		        <td><div><img src="/images/peter.png" /></div></td>
+		    </tr>
 		</table>
 	</div>
 	
